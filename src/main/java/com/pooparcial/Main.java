@@ -2,6 +2,7 @@ package com.pooparcial;
 
 import java.util.Scanner;
 
+import com.pooparcial.biblioteca.LibroTexto;
 import com.pooparcial.biblioteca.libro;
 
 public class Main {
@@ -39,5 +40,10 @@ public class Main {
         System.out.println("\n=== Probando operaciones en libro2 ===");
         libro2.prestamo();
         libro2.devolucion();
+
+        // --- PRUEBA DE LIBRO TEXTO ---
+        System.out.println("\n=== Creando LibroTexto con constructor con parámetros ===");
+        LibroTexto texto1 = new LibroTexto("Matemáticas Discretas", "Kenneth Rosen", 10, 3, "Ingeniería de Sistemas");
+        texto1.imprimirInformacion();
     }
 }
