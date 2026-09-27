@@ -7,7 +7,6 @@
 # Diagrama de clase Mermaid
 
 ```mermaid
-
 classDiagram
     class libro {
         -String titulo
@@ -59,5 +58,5 @@ classDiagram
     libro <|-- LibroTexto
     LibroTexto <|-- LibroTextoUNIAC
     libro <|-- Novela
-
-    ```
+```
+    
